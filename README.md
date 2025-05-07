@@ -18,4 +18,3 @@ Este projeto é um blog simples desenvolvido com Vue 3 e Vite. Ele utiliza compo
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário.
 - [Swiper](https://swiperjs.com/) - Biblioteca para sliders/carrosséis.
 
-## Estrutura do Projeto
