@@ -1,0 +1,26 @@
+@import "tailwindcss";
+body {
+  background-color: rgb(184, 177, 177);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  margin-inline: auto;
+  max-width: 500px;
+  padding: 20px;
+
+}
+
+.gradient-text {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;              /* For Firefox */
+  color: transparent;                 /* Fallback for some browsers */
+}
