@@ -1,3 +1,4 @@
+
 <template>
     <swiper
       :modules="[Navigation, Pagination]"
@@ -34,5 +35,6 @@
       required: true,
     },
   });
+  
   </script>
   

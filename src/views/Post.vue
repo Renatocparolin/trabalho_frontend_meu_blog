@@ -10,11 +10,16 @@
 </template>
 
 <script setup>
+import { computed } from 'vue' // Adicione esta linha
 import { useRoute } from 'vue-router';
-import { posts } from '../data/posts';
+//import { posts } from '../data/posts';
+import { store } from '../store'
 
 
 const route = useRoute();
-const post = posts.find((p) => p.slug === route.params.slug);
+const post = computed(() => 
+  store.posts.find((p) => p.slug === route.params.slug)
+)
+console.log(post.value);
 
 </script>
